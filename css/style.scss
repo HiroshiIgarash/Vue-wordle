@@ -1,0 +1,40 @@
+.histories{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 270px;
+    align-content: flex-start;
+    li{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        div{
+            border:1px solid #000;
+            width: 25px;
+            height: 25px;
+            margin: 2px;
+            text-align: center;
+            border-radius: 10px;
+        }
+    }
+}
+
+.kana{
+    display: flex;
+    height: 160px;
+    flex-direction: column;
+    flex-wrap:wrap-reverse;
+    align-content: flex-end;  
+    div{
+        border:1px solid #000;
+        width: 25px;
+        height: 25px;
+        margin: 2px;
+        text-align: center;
+        border-radius: 10px;  
+        &.boederless{
+            border-color: #fff;
+        }  
+    }
+}
+
